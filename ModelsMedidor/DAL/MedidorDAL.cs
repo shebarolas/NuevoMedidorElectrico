@@ -30,10 +30,11 @@ namespace ModelsMedidor.DAL
 
         public void llenarMedidores()
         {
-            Medidor m;
+            Medidor medi;
             for (int i=1;i<30 ;i++)
             {
-                medidor.Add(m = new Medidor(i));
+                medi = new Medidor(i);
+                medidor.Add(medi);
             }
         }
 
